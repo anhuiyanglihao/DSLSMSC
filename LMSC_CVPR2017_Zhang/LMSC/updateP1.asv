@@ -1,0 +1,8 @@
+function P=updateP2(Z,H)
+
+J= ;
+[U,S,V] = svd (W,'econ'); 
+
+PT = U*V';
+P = PT';
+end
